@@ -28,11 +28,11 @@ const users = [
       online: true
     }
   ];
-
+ 
 const ContactList = () => (
     <div>
         {users.map(item => (
-            <Contact name={item.name} avatar={item.avatar} online={item.online ? 'Online' : 'Offline'}   />
+            <Contact name={item.name} avatar={item.avatar} online={item.online  ? 'status-online' : '' }   />
         ))}
     </div>
 )
