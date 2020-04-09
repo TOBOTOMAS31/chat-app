@@ -10,12 +10,12 @@ const users = [
     {
       name: 'Nellie Caldwell',
       avatar: 'https://randomuser.me/api/portraits/women/17.jpg',
-      online: true
+      online: false
     },
     {
       name: 'Vernon Mason',
       avatar: 'https://randomuser.me/api/portraits/men/84.jpg',
-      online: true
+      online: false
     },
     {
       name: 'Erica Hunt',
@@ -25,7 +25,7 @@ const users = [
     {
       name: 'Juanita Phillips',
       avatar: 'https://randomuser.me/api/portraits/women/55.jpg',
-      online: true
+      online: false
     }
   ];
  
